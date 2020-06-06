@@ -14,6 +14,12 @@ public:
 		nachfolger_li = nullptr;
 		nachfolger_re = nullptr;
 	}
+	SuchbaumElement(int c)
+	{
+		content = c;
+		nachfolger_li = nullptr;
+		nachfolger_re = nullptr;
+	}
 
 
 	bool is_leaf();
